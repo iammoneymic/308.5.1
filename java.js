@@ -25,12 +25,11 @@ function sumArray(numbers) {
     }
   }
   
-  console.log(sumArray([1, 2, 3]));  // Output: 6
-  console.log(averageArray([1, 2, 3]));  // Output: 2
-  console.log(longestString(['say', 'hello', 'in', 'the', 'morning']));  // Output: 'morning'
-  console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3));  // Output: ['hello', 'morning']
-  printNumbers(5);  // Output: 1, 2, 3, 4, 5
-  
+  console.log(sumArray([1, 2, 3]));  
+  console.log(averageArray([1, 2, 3]));  
+  console.log(longestString(['say', 'hello', 'in', 'the', 'morning']));  
+  console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3));  
+  printNumbers(5); 
 
   //Part:2
   const data = [
