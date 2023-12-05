@@ -24,12 +24,9 @@ function sumArray(numbers) {
       console.log(n);
     }
   }
-  
-  console.log(sumArray([1, 2, 3]));  
-  console.log(averageArray([1, 2, 3]));  
-  console.log(longestString(['say', 'hello', 'in', 'the', 'morning']));  
-  console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3));  
-  printNumbers(5); 
+
+
+
 
   //Part:2
   const data = [
@@ -47,7 +44,7 @@ function sumArray(numbers) {
   
   const sumOfAges = data.reduce((acc, person) => acc + parseInt(person.age), 0);
   const averageAge = sumOfAges / data.length;
-  
+
 
 
 
